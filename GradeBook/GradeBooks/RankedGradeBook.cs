@@ -24,11 +24,11 @@ namespace GradeBook.GradeBooks
             }
             else if(averageGrade < 60.0 && averageGrade >= 40.0)
             {
-                return 'c';
+                return 'C';
             }
             else if(averageGrade < 40.0 && averageGrade >= 20.0)
             {
-                return 'B';
+                return 'D';
             }
             return 'F';
         }
